@@ -1,0 +1,70 @@
+@font-face {
+    font-family: GB;
+    src: url(fonts/GillSansMT_Bold_Italic.ttf);
+}
+
+@font-face {
+    font-family: Nintendo;
+    src: url(fonts/NintendBold-RM8E.ttf);
+}
+
+@font-face {
+    font-family: Gasalt;
+    src: url(fonts/Gasalt-Regular.ttf);
+}
+
+@font-face {
+    font-family: Arcade;
+    src: url(fonts/ARCADE.TTF);
+}
+ 
+ p {
+  font-family: Noteworthy;
+  font-size: 30px;
+}
+
+.title{
+  font-family: GB;
+  font-size: 70px;
+  text-align: center;
+  color: darkblue;
+}
+
+.subtitle{
+  font-family: Nintendo;
+  font-size: 40px;
+  text-align: center;
+}
+
+.note{
+  font-family: Gasalt;
+  font-size: 20px;
+  text-align: center;
+  color: lightblue;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+#imagesMain {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+#imagesMain img {
+  height: 400px;
+  width: 600px;
+  vertical-align: middle;
+}
+
+.extra { 
+    display: none;
+}
+
+p:hover .extra {
+    display: inline-block;
+}
